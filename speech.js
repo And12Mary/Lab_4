@@ -16,7 +16,7 @@ function on_touch{
 function onend()
 {
 	recognition.stop();
-		recognition_started=false;
+	recognition_started=false;
 }
 recognition.onend=onend;
 recognition.onsounded=onend;
